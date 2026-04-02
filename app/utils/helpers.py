@@ -6,13 +6,12 @@ from app.user.models import UserModel
 import jwt
 from app.utils.db import get_db
 
-
 from fastapi import HTTPException, status, Request, Depends
-from sqlalchemy.orm import Session
-from app.utils.db import get_db
-from app.utils.settings import settings
-from app.user.models import UserModel
-import jwt
+
+
+
+
+
 
 
 def is_authenticated(request: Request, db: Session = Depends(get_db)):
