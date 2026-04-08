@@ -2,10 +2,6 @@
 
 A backend system where users can manage their expenses securely with authentication and clean API design.
 
-
-
- 🔗 Demo & Live API
-
 🔗 Live API (Render Deployment):  
 
 https://expense-tracker-api-pdqy.onrender.com/docs
